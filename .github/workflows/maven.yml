@@ -33,7 +33,7 @@ jobs:
     - name: Build & push Docker image
       uses: mr-smithers-excellent/docker-build-push@v6
       with:
-        image: faisal8050/javateche
+        image: faisal8050/poc_managment
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
