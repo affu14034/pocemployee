@@ -6,7 +6,7 @@
 # separate terms of service, privacy policy, and support
 # documentation.
 
-name: Java CI with Maven
+name: DemoPOC
 
 on:
   push:
@@ -17,7 +17,7 @@ on:
 jobs:
   build:
 
-    runs-on: demopoc
+    runs-on: ubantu-latest
 
     steps:
     - uses: actions/checkout@v2
